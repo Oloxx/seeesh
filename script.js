@@ -5,7 +5,7 @@ function playSound(audio) {
 }
 
 function random() {
-  const array = ['btn-outline-primary', 'btn-outline-success', 'btn-outline-info', 'btn-outline-danger'];
+  const array = ['btn-outline-info', 'btn-outline-danger', 'btn-outline-lime', 'btn-outline-warning'];
   const random = Math.floor(Math.random() * array.length);
   const result = array[random];
 
