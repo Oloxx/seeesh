@@ -9,7 +9,7 @@ function random() {
   const random = Math.floor(Math.random() * array.length);
   const result = array[random];
 
-  var elements = document.getElementsByTagName('button');
+  const elements = document.getElementsByTagName('button');
   for (let i = 0; i < elements.length; i++) {
     elements[i].classList.add(result);
   }
